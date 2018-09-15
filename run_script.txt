@@ -1,0 +1,5 @@
+Navigate to the target folder: kafka-visualizer/kafkavisualizer/rest/target
+
+How to run:
+java --add-modules java.activation -jar ./rest-1.0-SNAPSHOT.jar --zookeeper=hostname:port --kafka=hostname:port --env=<DEV,QA,UAT or PROD>
+
