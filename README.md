@@ -6,8 +6,6 @@
 
 ##### How to run these Docker files:
 
-##### Check run_script.txt for a the zookper and kafka IP:Host
-
 ```sh
 $ docker pull kbhargava/kafka-visuals
 $ docker run -p 8080:8080 --rm kbhargava/kafka-visuals <zookeeper IP:Host> <kafka IP:host> <DEV, PROD, UAT, QA>
